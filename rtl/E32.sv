@@ -34,6 +34,16 @@ register_file RF
    .data_b            (data_b)
 );
 
+control_unit CU(
+   .instr             (),
+   .write_reg         (),
+   .mem_write         (),
+   .bus_write         ()
+);
+
+
+
+
 
 
 
