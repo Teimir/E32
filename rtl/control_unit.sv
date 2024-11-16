@@ -3,6 +3,7 @@ module control_unit (
     output         write_reg,
     output         mem_write,
     output         bus_write,
+    output         set_flgs
 );
     
 endmodule
